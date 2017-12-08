@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Warsztat</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <p id="name"> SIT <span class="colorLightBlue"> ON </span> CHAIR </p>
+      <ul id="menu">
+        <li> O FIRMIE </li>
+        <li> GALERIA </li>
+        <li> KONTAKT </li>
+      </ul>
+
+    </div>
+  </header>
+
+  <section id="gradient">
+    <div class="container">
+
+      <div class="firstSectionBoxes">
+        <p class="colorLightBlue sign"> &lt </p>
+      </div>
+
+      <div class="firstSectionBoxes middle">
+        <img class="chair" src="images/black_chair.png">
+      </div>
+
+      <div class="firstSectionBoxes middle">
+        <h1> SIT <span class="colorLightBlue"> ON </span> OUR <span class="colorLightBlue"> CHAIR </span> </h1>
+
+        <p id="lorem">
+          Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.
+        </p>
+
+        <div>
+          <a class="button" href="#" target="_blank">ZOBACZ WIĘCEJ</a>
+        </div>
+      </div>
+
+      <div class="firstSectionBoxes">
+        <p class="colorLightBlue sign"> &gt </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="secondSection">
+    <div class="container">
+      <div class="secondSectionBoxes">
+        <img src="images/box1_img.jpg" alt="White chair" />
+        <div class="textOnPicture"> Chair CLAIR </div>
+        <hr class="lineOnPicture" />
+      </div>
+
+      <div class="secondSectionBoxes marginBetweenBoxes">
+        <img src="images/box2_img.jpg" alt="White chair" />
+        <div class="textOnPicture"> Chair MARGARITA </div>
+        <hr class="lineOnPicture" />
+      </div>
+
+      <div class="secondSectionBoxes" id="text">
+        <p id="headerOfBox">
+          Finds all inputs
+        </p>
+
+        <hr class="line" />
+        <br>
+        <p id="lastElementOfSectionSecond">
+          Finds all inputs that are not checked and highlights the next sibling span. Notice there is no changes when clicking the checkboxes since no click events have been linked.
+          <br>
+          <br> Notice there is no change when clicking the checkboxes since no click events have been
+          <p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="Prices">
+    <div class="container">
+      <div>
+        <p class="menu">CENNIK</p>
+        <hr class="basicLine" />
+      </div>
+
+      <div class="priceBox">
+        <div class="circle">
+          <div class="small_circle"></div>
+        </div>
+        <br>
+        <h2 class="headLine"> BASIC PLAN </h2>
+        <div class="price">
+          <p id="priceNumber">85 <sup>99</sup>
+          <br>
+          <p id="priceLetter">PLN/MC</p>
+          <p class="priceOption"> Zakup towaru + dowóz </p>
+          <p class="priceOption2"> Serwis </p>
+          <a class="link" href="#" target="_blank"> DOŁĄCZ </a>
+        </div>
+      </div>
+
+      <div class="priceBox spaceBetweenBoxes differentBox">
+        <div class="circle" id="middleCircle">
+          <div class="small_circle" id="middleSmall_circle"></div>
+        </div>
+        <br>
+        <h2 class="headLine" id="differentHeadline"> STANDARD PLAN </h2>
+        <div class="price">
+          <p id="priceNumber">95 <sup>99</sup>
+          <br>
+          <p id="priceLetter">PLN/MC</p>
+          <p class="priceOption white"> Zakup towaru + dowóz </p>
+          <p class="priceOption2"> Serwis </p>
+          <p class="priceOption3 white"> Gwarancja 5 lat </p>
+          <a class="link lastLink" href="#" target="_blank"> DOŁĄCZ </a>
+        </div>
+      </div>
+
+      <div class="priceBox spaceBetweenBoxes">
+        <div class="circle">
+          <div class="small_circle"></div>
+        </div>
+        <br>
+        <h2 class="headLine"> ADVANCE PLAN </h2>
+        <div class="price">
+          <p id="priceNumber">211<sup>00</sup>
+          <br>
+          <p id="priceLetter">PLN/MC</p>
+          <p class="priceOption"> Zakup towaru + dowóz </p>
+          <p class="priceOption2"> Serwis </p>
+          <p class="priceOption3"> Gwarancja 6 lat </p>
+          <p class="priceOption4"> Porady Projektanta </p>
+          <a class="link" href="#" target="_blank"> DOŁĄCZ </a>
+        </div>
+      </div>
+  </section>
+
+  <section id="contact-form">
+      <div class="container">
+        <div>
+          <p class="menu">KONTAKT</p>
+          <hr class="basicLine"/>
+        </div>
+        <form>
+          <div class="left-side-form">
+            <input type="text" id="name" placeholder="Imię"></input><br>
+            <input type="text" id="mail" placeholder="email"></input><br>
+            <textarea rows="5" cols="30" id="info" placeholder="Wiadomość"></textarea>
+          </div>
+          <div class="right-side-form">
+            <div class="red-chair-image"></div>
+            <div class="checkbox">
+              <input type="checkbox" id="c1" name="cc" />
+              <label for="c1"><span></span><p>Zgadzam się na przetwarzanie danych osobowych<p></label>
+
+            </div>
+            <button type="submit" name="submit">Wyślij</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <section id="footer">
+        <div class="container">
+          <div class="copyright">
+            <p>
+              Copyright 2014 | All Rights Reserved. - Sit On Chair
+            </p>
+          </div>
+          <div class="footer-right-side">
+            <div class="footer-image">
+              <img src="images/flickr.png" alt="flickr" />
+              <img src="images/vimeo.png" alt="vimeo" />
+              <img src="images/pinterest.png" alt="pinterest" />
+              <img src="images/twitter.png" alt="twitter" />
+            </div>
+            <div class="footer-text">
+              <p>
+                Sit <span>On</span> Chair
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+</body>
+
+</html>
